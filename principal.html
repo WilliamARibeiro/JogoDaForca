@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+     <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="normalize.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');</style>
+    <link rel="stylesheet" href="principal.css">
+   
+    <link rel="stylesheet" href="style.css">
+    
+  
+    <title>Jogo da Forca</title>
+</head>
+<body>
+
+    <header class="cabecalho">
+
+        <div class="logo">
+            <h1><img src="images/logo.png" alt="Alura"></h1>
+        </div>
+
+        <h2>ACERTE A PALAVRA SECRETA E FUJA DA FORCA!</h2>
+
+        <div class="audio">
+            <audio controls autoplay>
+            <source src="musica/inside-a-ufo.mp3" type="audio/mp3">
+            </audio>
+        </div>        
+
+    </header>
+    <main>
+
+        <img id="imagen" src="images/img0.png" alt="Ahorcado">
+        <div>
+            <p id="palabra_a_adivinar"></p>
+
+            <p id="resultado"></p>
+            
+        </div>
+    
+    </main>
+
+        <section class="teclado">
+
+        <div id="letras">
+            <button>a</button>
+            <button>b</button>
+            <button>c</button>
+            <button>d</button>
+            <button>e</button>
+            <button>f</button>
+            <button>g</button>
+            <button>h</button>
+            <button>i</button>
+            <button>j</button>
+            <button>k</button>
+            <button>l</button>
+            <button>m</button>
+            <button>n</button>
+            <button>o</button>
+            <button>p</button>
+            <button>q</button>
+            <button>r</button>
+            <button>s</button>
+            <button>t</button>
+            <button>u</button>
+            <button>v</button>
+            <button>w</button>
+            <button>x</button>
+            <button>y</button>
+            <button>z</button>
+        </div>
+
+        <div>
+       
+            <button class="boton-obtenerPalabra" id="jugar">Sortear Palavra</button>
+
+            <a href="index.html">
+                <button class="boton-volver">Voltar</button> 
+                </a>
+        
+        </div>
+
+    </section>
+  
+
+    <footer class="rodape">
+
+        <div class="redes">
+ 
+            <a href="https://www.linkedin.com/in/william-ribeiro-dev-web"><img src="images/Linkedin.jpg" class="linkedin"/></a>
+            <a href="https://www.github.com/WilliamARibeiro"><img src="images/githubBlanco.png" class="github"/></a>
+        
+        </div>
+
+        <p class="copyright">&copy;2022 William Ribeiro</p>  
+    
+    </footer>
+    <script src="funcoes.js"></script>
+    <script src="jogo.js"></script>
+</body>
+
+</html>
